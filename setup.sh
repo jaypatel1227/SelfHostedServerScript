@@ -1,5 +1,10 @@
 sudo yay -Syuu
-sudo yay -Sy git rust
+yay -Sy git rust docker docker-compose
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
 
 mkdir ~/Servers
 cd ~/Servers

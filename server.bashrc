@@ -1,0 +1,5 @@
+alias ll='ls -ahlF'
+alias la='ls -A'
+alias l='ls -CF'
+alias n='nvim'
+alias v='nvim'

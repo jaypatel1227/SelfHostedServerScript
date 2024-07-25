@@ -9,3 +9,5 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 mkdir ~/Servers
+
+git clone https://github.com/jaypatel1227/dotfiles.git

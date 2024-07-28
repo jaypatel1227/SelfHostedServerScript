@@ -1,3 +1,6 @@
+# =========
+#  The purpose of this script is to do the setup for installing all of the dependencies needed to use this machine as a server
+# =========
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 cd ../
 rm -rf ../yay
